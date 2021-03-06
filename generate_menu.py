@@ -11,6 +11,7 @@ def main(date):
 
     ## get one topping combination from vegan combinations, the possible number is from 1 to 511 
     vegan_topping_comb = filter_list(topping_list,num_to_binary_list(num))
+    vegan_topping_comb.sort() ## sort topping name lexicographically for testing purpose
     menu.append(vegan_topping_comb)
 
     ## get one topping combination from non-vegan combinations, the possible number is from 512 to 4095
@@ -18,8 +19,8 @@ def main(date):
     for i in range(9):
         cur_num = 512+(num-1)*9+i
         non_vegan_topping_comb = filter_list(topping_list,num_to_binary_list(cur_num))
+        non_vegan_topping_comb.sort() ## sort topping name lexicographically for testing purpose
         menu.append(non_vegan_topping_comb)
-    print(menu)
     return menu
     
 
