@@ -1,5 +1,5 @@
 # Pizza Generator
-For the upcoming calendar year, Yummly Pizzeria will generate their pizza menu every 
+For the upcoming calendar year, Pizzeria will generate their pizza menu every 
 morning. Pizzas are defined by the combination of toppings, e.g. ["garlic", "mushroom"], 
 ["pineapple", "ham", "onion", "green peppers"], ["basil"]. 
 Various orderings of the same toppings constitute only one combination, i.e. ["mushroom", "sausage"] and 
@@ -24,7 +24,7 @@ The following constraints govern each day's menu:
 - a pizza must be comprised of between 0 and 12 toppings, inclusive, using only the toppings listed above
 - at least one vegetarian pizza must be offered
 - a combination of pizza toppings cannot be duplicated at any point during the year
-- on any given day, the Yummly Pizzeria staff should be able to generate the same menu multiple times (i.e. if they run out of all their menus, they should be able to print new ones)
+- on any given day, the Pizzeria staff should be able to generate the same menu multiple times (i.e. if they run out of all their menus, they should be able to print new ones)
 
 Your task is to write a program that can generate daily menus everyday for a calendar year. 
 When the program is run it should output the menu to the command line. You may use any 
