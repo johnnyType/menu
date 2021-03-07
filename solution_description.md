@@ -39,4 +39,5 @@ python generate_menu.py 20210306
 ```
 The result would be the same as previous.
 
-# NOTE: The solution only has two parts: 1. solution program and utils, which contains some generic reusable function. 2. Test file, which can test whether the program can satisfy all 5 constraints or not. There would be a log file for monitoring, but I don't have that much time, just build a folder there.
+# NOTE: The solution only has two parts: 1. solution program and utils, which contains some generic reusable function. 2. Test file, which can test whether the program can satisfy all 5 constraints or not. 
+# There would be a log file for monitoring, but I don't have that much time, just build a folder there.
