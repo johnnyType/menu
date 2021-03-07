@@ -1,4 +1,4 @@
-## We can observe that each topping combination can be determined by a 12 digits binary number.
+# We can observe that each topping combination can be determined by a 12 digits binary number.
 
 ## Assume that our topping list is ordered as: (This order can give some benefits for us to offer a vegan pizza)
 ```
