@@ -23,3 +23,18 @@
 - #####     Then we directly select the vegan pizza based on V.
 - #####     For the non-vegan pizza, the 9 non vegan pizza we select are the number values from 512+(V-1)*9 to 520+(v-1)*9
 - #####     For each number we convert it into 12 digits binary number and then get topping combination based on the toppling list.
+
+# HOW TO USE THE PROGRAM
+### WE CAN RUN THE FOLLOWING LINE IN CRONTAB JOB TO AUTOMATICALLY GENREATE EVERYDAY'S MENU
+```bash
+./generate_todays_menu.sh 
+```
+The result will be printed on terminal. For example, here is the result for 3/6/2021
+```python
+[['green peppers', 'pepperoni'], ['bacon', 'garlic', 'green peppers', 'ham', 'mushroom', 'olives'], ['garlic', 'green peppers', 'mushroom', 'olives', 'pepperoni'], ['garlic', 'green peppers', 'ham', 'mushroom', 'olives', 'pepperoni'], ['bacon', 'garlic', 'green peppers', 'mushroom', 'olives', 'pepperoni'], ['bacon', 'garlic', 'green peppers', 'ham', 'mushroom', 'olives', 'pepperoni'], ['green peppers', 'olives', 'pineapple'], ['green peppers', 'ham', 'olives', 'pineapple'], ['bacon', 'green peppers', 'olives', 'pineapple'], ['bacon', 'green peppers', 'ham', 'olives', 'pineapple']]
+```
+### WE CAN ONLY CALL THE PYTHON FUNCTION MANUALLY AND PASS DATE WITH FORMAT YYYYMMDD
+```bash
+python generate_menu.py 20210306
+```
+The result would be the same as previous.
