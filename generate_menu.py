@@ -30,6 +30,7 @@ def main(date):
         non_vegan_topping_comb = filter_list(topping_list,num_to_binary_list(cur_num))
         non_vegan_topping_comb.sort() ## sort topping name lexicographically for testing purpose
         menu.append(non_vegan_topping_comb)
+    print(menu)
     return menu
     
 
