@@ -14,8 +14,8 @@ from generate_menu import main, get_topping_list, get_non_vegan_topping_list
 
 
 ## This file tests whether the generate_menu func could satisfy all the constraints or not
-## I would loop for a whole year 2021 to test the first 3 constraints
-## Loop for both 2021 and 2020 to test the 4th constraint
+## I would loop for a whole year 2021 to test the first 4 constraints
+## Loop for both 2021 and 2020 to test the 5th constraint
 def test_generate_menu():
     topping_comb_list = list()
     ## test 2021 year
